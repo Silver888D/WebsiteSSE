@@ -1,0 +1,35 @@
+
+body{
+    background: url("hay.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+        margin: 0;
+      }
+
+.forminput[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid rgb(0, 0, 0); 
+  border-radius: 4px; 
+  box-sizing: border-box;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #000000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #747474;
+}
+
